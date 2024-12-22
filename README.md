@@ -38,7 +38,7 @@ http-content-collector/
 
   
 ```bash
-    git clone <ваш-репозиторий>
+    git clone https://github.com/Nays06/Uchebnaya-Praktika.git
     cd http-content-collector
 
 ```
