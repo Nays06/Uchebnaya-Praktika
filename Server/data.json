@@ -1,0 +1,11 @@
+{
+  "технологии": [
+    "https://en.wikipedia.org/wiki/Technology",
+    "https://www.site-technology.com/"
+  ],
+  "наука": [
+    "https://en.wikipedia.org/wiki/Science",
+    "https://pubmed.ncbi.nlm.nih.gov/34516817/"
+  ],
+  "космос": ["https://en.wikipedia.org/wiki/Space", "https://www.nasa.gov/"]
+}

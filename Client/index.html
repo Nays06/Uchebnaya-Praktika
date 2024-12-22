@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP Content Collector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Задание "Деплоймент"</h1>
+
+      <div class="input-container">
+        <label for="keyword">Введите ключевое слово:</label>
+        <input
+          type="text"
+          id="keyword"
+          placeholder="технолонии, наука, космос"
+        />
+        <button id="searchButton">Найти</button>
+      </div>
+
+      <div id="urlListContainer" class="hidden">
+        <h2>Выберите URL:</h2>
+        <ul id="urlList"></ul>
+      </div>
+
+      <div id="downloadStatus" class="hidden">
+        <h2>Статус загрузки:</h2>
+        <p>Размер: <span id="size"></span></p>
+        <p>Прогресс: <span id="progress"></span>%</p>
+      </div>
+
+      <div id="contentContainer" class="hidden">
+        <h2>Контент:</h2>
+        <div id="content"></div>
+      </div>
+
+      <div id="savedContentListContainer" class="hidden">
+        <h2>Сохраненный контент:</h2>
+        <ul id="savedContentList"></ul>
+      </div>
+
+      <div id="errorContainer" class="hidden">
+        <p id="errorMessage"></p>
+      </div>
+
+      <button id="showSavedContentButton">Показать сохраненный контент</button>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

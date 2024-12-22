@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 70%;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-container label {
+    font-weight: bold;
+}
+
+.input-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.input-container button {
+    padding: 10px 15px;
+    background-color: #8820ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+    background-color: #5600b8;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    white-space: pre-line;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#savedContentList li {
+    cursor: pointer;
+}
+
+#errorContainer {
+    color: red;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#showSavedContentButton {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #8820ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#showSavedContentButton:hover {
+    background-color: #5600b8;
+}
+
+#downloadStatus {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#downloadStatus h2 {
+    margin-bottom: 10px;
+}
+
+#downloadStatus p {
+    margin-bottom: 8px;
+}
